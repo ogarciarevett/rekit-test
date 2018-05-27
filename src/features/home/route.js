@@ -3,7 +3,7 @@ import {
 } from './';
 
 export default {
-  path: '/',
+  path: '/rekit-test/',
   name: 'Home',
   component: Questions
 };
