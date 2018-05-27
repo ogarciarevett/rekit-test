@@ -1,0 +1,42 @@
+@import '../../styles/mixins';
+.home-questions {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+
+    .title {
+      font-family: 'Pacifico', cursive;
+      font-size: 25px;
+      background: black;
+      color: white;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin-top: 0;
+    }
+
+    .btn-fetch-questions {
+      cursor: pointer;
+      font-family: 'Pacifico', cursive;
+      color: @ButttonColor;
+      background-color: @ButtonBG;
+      // Dark 3d bottom
+      border-bottom: 5px solid @ButtonBottom;
+      // End
+      padding: 10px 40px;
+      margin: 0px 10px 10px 0px;
+      border-radius: 10px;
+      font-size: 25px;
+      text-decoration: none;
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .pregunta {
+      text-align: left;
+      padding-left: 20px;
+      padding-right: 20px;
+      p {
+        font-weight: bold;
+      }
+    }
+}
