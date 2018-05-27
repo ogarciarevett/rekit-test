@@ -67,7 +67,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "deploy": "gh-pages -d build"
   },
   "rekit": {
     "devPort": 6075,
@@ -112,5 +113,8 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "description": "testing created by Rekit."
+  "description": "testing created by Rekit.",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
 }
